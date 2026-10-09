@@ -7,7 +7,7 @@ An institutional-grade quantitative risk analytics platform built in Python, des
 
 ## 📊 Project Completion Summary & Analytics Workflow
 
-With the completion of **Phase 10**, this project successfully implements an end-to-end institutional risk management pipeline across 10 distinct phases:
+With the completion of this project successfully implements an end-to-end institutional risk management pipeline across 10 distinct phases:
 
 1. **Data Collection & Cleaning (Phases 1–2):** Automated ingestion of 3 years of daily adjusted closing prices and benchmark index data via Yahoo Finance (`yfinance`), ensuring protection against corporate action distortions, missing date alignment, and log-return transformations.
 2. **Portfolio Construction & P&L (Phase 3):** Allocation of capital across an equity universe (`AAPL`, `MSFT`, `NVDA`, `JPM`, `XOM`, `AMZN`, `META`, `GOOGL`, `TSLA`, `UNH`) to generate daily dollar P&L and cumulative portfolio value trajectories.
